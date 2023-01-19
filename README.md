@@ -9,11 +9,11 @@ POST /api/cars
     - Route to add a car.
     - headers: {}
     - body: {
-	            modelo: "Fiat Argo 1.3",
-	            fabricante: "Fiat",
-	            dataFabricacao: "2023-01-10",
-	            valor: 10.000,
-	            anoModelo: 2023,
+		modelo: "Fiat Argo 1.3",
+		fabricante: "Fiat",
+		dataFabricacao: "2023-01-10",
+		valor: 10.000,
+		anoModelo: 2023,
             }
 ```
 
@@ -29,16 +29,16 @@ PUT /api/cars/id
     - Route to update a car.
     - headers: {}
     - body: {
-	            modelo: "Fiat Argo 1.0",
-	            fabricante: "Fiat",
-	            dataFabricacao: "2023-01-10",
-	            valor: 10.500,
-	            anoModelo: 2023,
+    		modelo: "Fiat Argo 1.0",
+		fabricante: "Fiat",
+		dataFabricacao: "2023-01-10",
+		valor: 10.500,
+		anoModelo: 2023,
             }
 ```
 
 ```yml
-DELTE /api/cars/id
+DELETE /api/cars/id
     - Route to delete a car.
     - headers: {}
     - body: {}
